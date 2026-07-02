@@ -123,15 +123,16 @@ Current prototype efficiency: **~51%** (can be improved by increasing delivery p
 ```
 DP-RAM-PUMP/
 ├── ram pump final/       ← All SolidWorks part & assembly files
-│   ├── RamPump_Assembly.SLDASM
-│   ├── drive_pipe.SLDPRT
+│   ├── final assembly.SLDASM
+|   ├── final assembly.step
+│   ├── bb pipe.SLDPRT
 │   └── ...
 ├── render/               ← Rendered images of the CAD model
 ├── galvanized.jpg
 └── README.md
 ```
 
-> 📝 Open the `.SLDASM` assembly file from the `ram pump final/` folder in SolidWorks — keep all files in the same folder so part references resolve correctly.
+> 📝 Open the `final assembly.SLDASM` assembly file from the `ram pump final/` folder in SolidWorks — keep all files in the same folder so part references resolve correctly.
 
 ---
 
